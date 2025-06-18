@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    './src/**/*.html',
+    './src/**/*.js',
+    './src/**/*.vue',
+    './resources/views/**/*.blade.php',
+  ],
   darkMode: ["selector", "[data-web-theme=dark]"],
   theme: {
     container: {
